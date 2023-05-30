@@ -65,3 +65,6 @@ setMethod(f = "Edad<-",
   }
 )
 david <- Empleado(nombre= "David", edad=34)
+
+# nuevo comentario 
+boxplot(table(rpois(10000,0.5)))
